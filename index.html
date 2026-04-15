@@ -11,7 +11,7 @@
   display:grid;
   grid-template-columns:repeat(4,1fr);
   gap:12px;
-  margin-top:18px;
+  margin-top:16px;
 }
 
 @media (max-width: 700px){
@@ -47,7 +47,7 @@ a{text-decoration:none}
 }
 .topbar-inner{max-width:var(--max); margin:0 auto; padding:12px 20px; display:flex; align-items:center; justify-content:space-between; gap:18px}
 .brand{display:flex; align-items:center; gap:10px; font-weight:800}
-.brand-mark{width:30px;height:30px;border-radius:10px;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center}
+.brand-mark{width:30px;height:30px;border-radius:8px;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center}
 .quick-nav{display:flex; flex-wrap:wrap; gap:8px; justify-content:flex-end}
 .quick-nav a{
   font-size:12px; color:var(--muted); background:#fff; border:1px solid var(--line); padding:7px 10px; border-radius:999px
@@ -57,7 +57,7 @@ a{text-decoration:none}
 .card{background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow)}
 .slide-card{padding:28px}
 .kicker{display:inline-flex; align-items:center; gap:8px; font-size:12px; font-weight:800; letter-spacing:.08em; color:var(--blue); text-transform:uppercase}
-.title-row{display:flex; align-items:flex-start; justify-content:space-between; gap:16px; margin-top:10px}
+.title-row{display:flex; align-items:flex-start; justify-content:space-between; gap:16px; margin-top:12px}
 .h1{font-size:42px; line-height:1.12; letter-spacing:-.03em; margin:0}
 .h2{font-size:28px; line-height:1.24; letter-spacing:-.02em; margin:0}
 .subtitle{margin-top:8px; color:var(--muted); font-size:15px}
@@ -65,17 +65,17 @@ a{text-decoration:none}
 .kpi-row{ display:flex;  flex-direction:column;  gap: 15px;  margin: 15px;}
 .kpi-row .metric{ width:100%;}
 .kpi-row .metric{  width:100%;  min-height:100px;   display:flex;  flex-direction:column;  justify-content:center;}
-.metric{padding:16px 18px; background:#fff; border:1px solid var(--line); border-radius:16px}
+.metric{padding:16px 18px; background:#fff; border:1px solid var(--line); border-radius:12px}
 .metric.soft-blue{background:var(--soft-blue)}
 .metric.soft-red{background:var(--soft-red)}
 .metric.soft-green{background:var(--soft-green)}
 .metric.soft-amber{background:var(--soft-amber)}
 .metric .label{font-size:12px; color:var(--muted)}
-.metric .value{margin-top:6px; font-size:30px; line-height:1; font-weight:900; letter-spacing:-.03em}
-.metric .desc{margin-top:6px; font-size:12px; color:var(--muted)}
+.metric .value{margin-top:8px; font-size:30px; line-height:1; font-weight:900; letter-spacing:-.03em}
+.metric .desc{margin-top:8px; font-size:12px; color:var(--muted)}
 .stack{display:flex;flex-direction:column;gap:12px;height:100%}
 .inner-col{display:flex;flex-direction:column;gap:12px}
-.two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px;align-items:stretch}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px;align-items:stretch}
 .stack{
   display:flex;
   flex-direction:column;
@@ -87,7 +87,7 @@ a{text-decoration:none}
   display:grid;
   grid-template-columns:1fr 1fr;
   gap:16px;
-  margin-top:18px;
+  margin-top:16px;
   align-items:stretch;
 }
 
@@ -96,7 +96,7 @@ a{text-decoration:none}
   display:grid;
   grid-template-columns: 1fr 100px 1fr;
   gap:16px;
-  margin-top:18px;
+  margin-top:16px;
   align-items:stretch;
 }
 
@@ -148,7 +148,7 @@ a{text-decoration:none}
 }
 
 .metric .desc{
-  margin-top:6px;
+  margin-top:8px;
   font-size:12px;
   line-height:1.45;
   color:var(--muted);
@@ -203,46 +203,46 @@ a{text-decoration:none}
     height:280px;
   }
 }
-.arrow-symbol{  font-size:54px;  font-weight:500;  color:#1f2937;  line-height:2;}
+.arrow-symbol{  font-size:54px;  font-weight:500;  color:var(--navy);  line-height:2;}
 .three-col{display:grid; grid-template-columns:repeat(3,1fr); gap:12px}
 .panel{padding:20px; border:1px solid var(--line); border-radius:18px; background:#fff}
 .panel h3{margin:0; font-size:18px}
-.panel-sub{margin-top:6px; color:var(--muted); font-size:13px}
+.panel-sub{margin-top:8px; color:var(--muted); font-size:13px}
 .chart-wrap{position:relative; height:320px; margin-top:16px}
 .chart-wrap.tall{height:360px}
 .chart-wrap.short{height:250px}
-.insight{  margin-top:14px; padding:14px 16px; border-radius:16px; border:1px solid var(--line); font-size:14px}
+.insight{  margin-top:16px; padding:14px 16px; border-radius:12px; border:1px solid var(--line); font-size:14px}
 .insight.blue{background:var(--soft-blue); color:#1e3a8a}
 .insight.red{background:var(--soft-red); color:#991b1b}
 .insight.green{background:var(--soft-green); color:#166534}
 .insight.amber{background:var(--soft-amber); color:#92400e}
-.split-topdown{display:grid; grid-template-columns:1fr; gap:14px; margin-top:22px}
+.split-topdown{display:grid; grid-template-columns:1fr; gap:14px; margin-top:20px}
 .compare-table{width:100%; border-collapse:collapse; margin-top:16px; font-size:14px}
 .compare-table th,.compare-table td{padding:12px 12px; border-bottom:1px solid var(--line); text-align:left; vertical-align:top}
 .compare-table th{font-size:12px; color:var(--muted); font-weight:700; background:var(--soft-gray)}
 .compare-table tr:last-child td{border-bottom:none}
-.pill{display:inline-flex; align-items:center; padding:4px 8px; border-radius:999px; font-size:11px; font-weight:700}
+.pill{display:inline-flex; align-items:center; padding:4px 8px; border-radius:999px; font-size:12px; font-weight:700}
 .pill.red{background:var(--soft-red); color:var(--red)}
 .pill.green{background:var(--soft-green); color:var(--green)}
 .pill.blue{background:var(--soft-blue); color:var(--blue)}
 .pill.amber{background:var(--soft-amber); color:var(--amber)}
-.small-note{font-size:12px; color:var(--muted); margin-top:10px}
+.small-note{font-size:12px; color:var(--muted); margin-top:12px}
 .flow-rows{display:grid; grid-template-columns:1fr; gap:10px; margin-top:16px}
 .flow-row{
   display:grid; grid-template-columns:180px 1fr 140px; gap:14px; align-items:center;
-  padding:12px 14px; background:var(--soft-gray); border:1px solid var(--line); border-radius:14px
+  padding:12px 14px; background:var(--soft-gray); border:1px solid var(--line); border-radius:12px
 }
 .flow-bar{height:12px; background:#e5e7eb; border-radius:999px; overflow:hidden}
 .flow-fill{height:100%; border-radius:999px}
-.member-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:22px}
-.member-card{padding:20px; border-radius:18px; border:1px solid var(--line); background:#fff}
+.member-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:20px}
+.member-card{padding:20px; border-radius:12px; border:1px solid var(--line); background:#fff}
 .member-card.featured{background:var(--soft-blue)}
 .member-card.vip{background:var(--soft-green)}
 .member-name{font-size:20px; font-weight:900}
-.member-price{margin-top:6px; font-size:26px; font-weight:900}
+.member-price{margin-top:8px; font-size:26px; font-weight:900}
 .member-list{margin-top:12px; display:flex; flex-direction:column; gap:8px; color:#374151; font-size:14px}
-.decision-grid{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:18px}
-.decision-box{padding:18px; border-radius:18px; border:1px solid var(--line)}
+.decision-grid{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:16px}
+.decision-box{padding:18px; border-radius:12px; border:1px solid var(--line)}
 .decision-box h3{margin:0 0 10px; font-size:18px}
 .decision-box ul{margin:0; padding-left:18px}
 .decision-box li{margin:8px 0}
@@ -261,9 +261,9 @@ a{text-decoration:none}
 
 .mkt-alert{
   display:flex; align-items:center; gap:14px;
-  padding:14px 18px; border-radius:14px;
+  padding:14px 18px; border-radius:12px;
   background:var(--soft-red); border:1px solid #fecaca;
-  margin-top:18px;
+  margin-top:16px;
 }
 .mkt-alert-icon{ font-size:24px; flex-shrink:0; }
 .mkt-alert-text{ font-size:14px; color:#991b1b; line-height:1.55; }
@@ -283,12 +283,12 @@ a{text-decoration:none}
   margin-top:16px;
 }
 .mkt-goal-card{
-  padding:16px 18px; border-radius:16px;
+  padding:16px 18px; border-radius:12px;
   border:1px solid var(--line); background:#fff;
   display:flex; flex-direction:column; gap:6px;
 }
 .mkt-goal-card .goal-tag{
-  font-size:11px; font-weight:800; letter-spacing:.06em;
+  font-size:12px; font-weight:800; letter-spacing:.06em;
   padding:3px 8px; border-radius:999px; width:fit-content;
 }
 .mkt-goal-card .goal-title{ font-size:15px; font-weight:800; margin:0; }
@@ -299,7 +299,7 @@ a{text-decoration:none}
 .tag-amber{ background:var(--soft-amber); color:var(--amber); }
 .tag-navy{ background:#f1f5f9; color:var(--navy); }
 
-.mkt-channel-list{ display:flex; flex-direction:column; gap:10px; margin-top:14px; }
+.mkt-channel-list{ display:flex; flex-direction:column; gap:10px; margin-top:16px; }
 .mkt-channel-row{
   display:grid; grid-template-columns:110px 1fr 90px;
   gap:12px; align-items:center;
@@ -316,7 +316,7 @@ a{text-decoration:none}
 
 .mkt-cta-wrap{
   margin-top:20px; padding:18px 20px;
-  border-radius:16px; border:1px solid var(--line);
+  border-radius:12px; border:1px solid var(--line);
   background:var(--soft-blue);
   display:flex; align-items:center; justify-content:space-between; gap:16px;
 }
@@ -397,61 +397,61 @@ a{text-decoration:none}
       </div>
 
       <!-- ── 중단: 문제 3카테고리 ── -->
-      <div style="margin-top:18px; display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; align-items:stretch;">
+      <div style="margin-top:16px; display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; align-items:stretch;">
 
         <!-- 카테고리 1: 고객 이탈 증가 -->
         <div class="panel" style="border-top:4px solid #dc2626;">
-          <div style="font-size:11px; font-weight:800; color:#dc2626; letter-spacing:.08em; margin-bottom:10px;">① 고객 이탈 증가</div>
+          <div style="font-size:12px; font-weight:800; color:var(--red); letter-spacing:.08em; margin-bottom:10px;">① 고객 이탈 증가</div>
           <div style="display:flex; flex-direction:column; gap:8px;">
-            <div style="padding:10px 12px; border-radius:10px; background:var(--soft-red);">
+            <div style="padding:10px 12px; border-radius:8px; background:var(--soft-red);">
               <div style="font-size:12px; font-weight:700; color:#991b1b;">VIP 고객의 꾸준한 이탈</div>
-              <div style="font-size:11.5px; color:#7f1d1d; margin-top:3px;">125명 → 98명 순감소 / 실이탈 188명<br>전체 매출의 32.9%를 담당하는 핵심 고객층</div>
+              <div style="font-size:12px; color:#7f1d1d; margin-top:4px;">125명 → 98명 순감소 / 실이탈 188명<br>전체 매출의 32.9%를 담당하는 핵심 고객층</div>
             </div>
-            <div style="padding:10px 12px; border-radius:10px; background:var(--soft-red);">
+            <div style="padding:10px 12px; border-radius:8px; background:var(--soft-red);">
               <div style="font-size:12px; font-weight:700; color:#991b1b;">유입 대비 낮은 전환율</div>
-              <div style="font-size:11.5px; color:#7f1d1d; margin-top:3px;">가입 후 미거래 비율 63.6%<br>10명 중 6명은 단 한 번도 거래하지 않음</div>
+              <div style="font-size:12px; color:#7f1d1d; margin-top:4px;">가입 후 미거래 비율 63.6%<br>10명 중 6명은 단 한 번도 거래하지 않음</div>
             </div>
-            <div style="padding:10px 12px; border-radius:10px; background:var(--soft-red);">
+            <div style="padding:10px 12px; border-radius:8px; background:var(--soft-red);">
               <div style="font-size:12px; font-weight:700; color:#991b1b;">구매 유인 요소 부재</div>
-              <div style="font-size:11.5px; color:#7f1d1d; margin-top:3px;">재구매 이탈율 44.9%<br>첫 거래 후 절반 가까이 이탈</div>
+              <div style="font-size:12px; color:#7f1d1d; margin-top:4px;">재구매 이탈율 44.9%<br>첫 거래 후 절반 가까이 이탈</div>
             </div>
           </div>
         </div>
 
         <!-- 카테고리 2: 서비스 경쟁력 감소 -->
         <div class="panel" style="border-top:4px solid #d97706;">
-          <div style="font-size:11px; font-weight:800; color:#d97706; letter-spacing:.08em; margin-bottom:10px;">② 서비스 경쟁력 감소</div>
+          <div style="font-size:12px; font-weight:800; color:var(--amber); letter-spacing:.08em; margin-bottom:10px;">② 서비스 경쟁력 감소</div>
           <div style="display:flex; flex-direction:column; gap:8px;">
-            <div style="padding:10px 12px; border-radius:10px; background:var(--soft-amber);">
+            <div style="padding:10px 12px; border-radius:8px; background:var(--soft-amber);">
               <div style="font-size:12px; font-weight:700; color:#92400e;">신규 고객 유입·전환 감소</div>
-              <div style="font-size:11.5px; color:#78350f; margin-top:3px;">월 평균 가입 793명 → 503명 (-36%)<br>가입해도 구매 메리트를 못 느끼고 이탈</div>
+              <div style="font-size:12px; color:#78350f; margin-top:4px;">월 평균 가입 793명 → 503명 (-36%)<br>가입해도 구매 메리트를 못 느끼고 이탈</div>
             </div>
-            <div style="padding:10px 12px; border-radius:10px; background:var(--soft-amber);">
+            <div style="padding:10px 12px; border-radius:8px; background:var(--soft-amber);">
               <div style="font-size:12px; font-weight:700; color:#92400e;">낮은 구매대행 경쟁력</div>
-              <div style="font-size:11.5px; color:#78350f; margin-top:3px;">비드바이 ¥2,500 vs 경쟁사 최저 ¥1,520<br>동일 상품 기준 업계 최고가 수준</div>
+              <div style="font-size:12px; color:#78350f; margin-top:4px;">비드바이 ¥2,500 vs 경쟁사 최저 ¥1,520<br>동일 상품 기준 업계 최고가 수준</div>
             </div>
-            <div style="padding:10px 12px; border-radius:10px; background:var(--soft-amber);">
+            <div style="padding:10px 12px; border-radius:8px; background:var(--soft-amber);">
               <div style="font-size:12px; font-weight:700; color:#92400e;">구매대행 비중 지속 감소</div>
-              <div style="font-size:11.5px; color:#78350f; margin-top:3px;">구매대행 거래 비중 28% → 18%<br>경쟁사 수수료 인하 기간 내 비중 감소</div>
+              <div style="font-size:12px; color:#78350f; margin-top:4px;">구매대행 거래 비중 28% → 18%<br>경쟁사 수수료 인하 기간 내 비중 감소</div>
             </div>
           </div>
         </div>
 
         <!-- 카테고리 3: 접근성 낮은 리워드 -->
         <div class="panel" style="border-top:4px solid #2563eb;">
-          <div style="font-size:11px; font-weight:800; color:#2563eb; letter-spacing:.08em; margin-bottom:10px;">③ 접근성 낮은 리워드</div>
+          <div style="font-size:12px; font-weight:800; color:var(--blue); letter-spacing:.08em; margin-bottom:10px;">③ 접근성 낮은 리워드</div>
           <div style="display:flex; flex-direction:column; gap:8px;">
-            <div style="padding:10px 12px; border-radius:10px; background:var(--soft-blue);">
+            <div style="padding:10px 12px; border-radius:8px; background:var(--soft-blue);">
               <div style="font-size:12px; font-weight:700; color:#1e40af;">저조한 쿠폰 사용률</div>
-              <div style="font-size:11.5px; color:#1e3a8a; margin-top:3px;">신규 2.4% · 일반 13% 수준<br>연 9,800만원 비용 대비 체감 효과 미미</div>
+              <div style="font-size:12px; color:#1e3a8a; margin-top:4px;">신규 2.4% · 일반 13% 수준<br>연 9,800만원 비용 대비 체감 효과 미미</div>
             </div>
-            <div style="padding:10px 12px; border-radius:10px; background:var(--soft-blue);">
+            <div style="padding:10px 12px; border-radius:8px; background:var(--soft-blue);">
               <div style="font-size:12px; font-weight:700; color:#1e40af;">등급제·혜택 파악 어려운 구조</div>
-              <div style="font-size:11.5px; color:#1e3a8a; margin-top:3px;">5단계 복합 포인트 기준 · 고객 직관성 낮음<br>다음 등급까지 얼마나 남았는지 알 수 없음</div>
+              <div style="font-size:12px; color:#1e3a8a; margin-top:4px;">5단계 복합 포인트 기준 · 고객 직관성 낮음<br>다음 등급까지 얼마나 남았는지 알 수 없음</div>
             </div>
-            <div style="padding:10px 12px; border-radius:10px; background:var(--soft-blue);">
+            <div style="padding:10px 12px; border-radius:8px; background:var(--soft-blue);">
               <div style="font-size:12px; font-weight:700; color:#1e40af;">등급 혜택 체감 낮음</div>
-              <div style="font-size:11.5px; color:#1e3a8a; margin-top:3px;">등급 쿠폰 최대 5,000원 수준<br>VIP 외 고객의 혜택 체감 미비</div>
+              <div style="font-size:12px; color:#1e3a8a; margin-top:4px;">등급 쿠폰 최대 5,000원 수준<br>VIP 외 고객의 혜택 체감 미비</div>
             </div>
           </div>
         </div>
@@ -459,7 +459,7 @@ a{text-decoration:none}
       </div>
 
       <!-- ── 하단: 인사이트 텍스트 ── -->
-      <div style="margin-top:14px; padding:12px 16px; background:#f8fafc; border-radius:10px; border-left:4px solid #64748b;">
+      <div style="margin-top:16px; padding:12px 16px; background:var(--soft-gray); border-radius:8px; border-left:4px solid #64748b;">
         <div style="font-size:12px; color:#475569; line-height:1.7;">
           분석: 비드바이 서비스에 <strong>고객 구매를 유인할 수 있는 정책·마케팅 요소가 부족</strong>하고, 이는 곧 고객 이탈로 이어지고 있습니다.
           등급제·혜택이 있지만 <strong>어떤 혜택인지, 내가 얼마나 누리는지 파악하기 어렵고</strong>, 달성 기준도 복잡합니다.
@@ -509,13 +509,13 @@ a{text-decoration:none}
               <span style="color:#1e40af;">"조금만 더 쓰면 VIP" 동기 부여 설계</span>
             </div>
           </div>
-          <div style="margin-top:8px; font-size:11px; color:#6b7280;">→ 대상: <strong>일반~프리미엄 고객</strong> (VIP 전환 직전 계층)</div>
+          <div style="margin-top:8px; font-size:12px; color:var(--muted);">→ 대상: <strong>일반~프리미엄 고객</strong> (VIP 전환 직전 계층)</div>
         </div>
 
         <!-- Solution 2 -->
         <div class="panel" style="border-top:4px solid #16a34a;">
           <div style="display:flex; align-items:center; gap:8px; margin-bottom:10px;">
-            <div style="width:28px; height:28px; border-radius:50%; background:#dcfce7; display:flex; align-items:center; justify-content:center; font-size:13px; font-weight:800; color:#15803d;">02</div>
+            <div style="width:28px; height:28px; border-radius:50%; background:#dcfce7; display:flex; align-items:center; justify-content:center; font-size:13px; font-weight:800; color:var(--green);">02</div>
             <div style="font-size:13px; font-weight:800; color:#166534;">구매 유인 요소 확충</div>
           </div>
           <div style="display:flex; flex-direction:column; gap:6px;">
@@ -528,7 +528,7 @@ a{text-decoration:none}
               <span style="color:#166534;">100건 중 13건 사용 → 전 거래 자동 적립</span>
             </div>
           </div>
-          <div style="margin-top:8px; font-size:11px; color:#6b7280;">→ 목표: 재구매 이탈율 44.9% <strong>개선</strong> · 첫 구매 이탈율 63.6% <strong>개선</strong></div>
+          <div style="margin-top:8px; font-size:12px; color:var(--muted);">→ 목표: 재구매 이탈율 44.9% <strong>개선</strong> · 첫 구매 이탈율 63.6% <strong>개선</strong></div>
         </div>
 
         <!-- Solution 3 -->
@@ -547,14 +547,14 @@ a{text-decoration:none}
               <span style="color:#92400e;">월 손실 740만원 중 최대 86% 회수 가능</span>
             </div>
           </div>
-          <div style="margin-top:8px; font-size:11px; color:#6b7280;">→ 구매대행 비중 18% → 회복 목표 · 신규 530건 추가 시 손익 균형</div>
+          <div style="margin-top:8px; font-size:12px; color:var(--muted);">→ 구매대행 비중 18% → 회복 목표 · 신규 530건 추가 시 손익 균형</div>
         </div>
 
         <!-- Solution 4 -->
         <div class="panel" style="border-top:4px solid #1f2937;">
           <div style="display:flex; align-items:center; gap:8px; margin-bottom:10px;">
-            <div style="width:28px; height:28px; border-radius:50%; background:#f1f5f9; display:flex; align-items:center; justify-content:center; font-size:13px; font-weight:800; color:#1f2937;">04</div>
-            <div style="font-size:13px; font-weight:800; color:#1f2937;">고객 유입 · 전환 마케팅</div>
+            <div style="width:28px; height:28px; border-radius:50%; background:#f1f5f9; display:flex; align-items:center; justify-content:center; font-size:13px; font-weight:800; color:var(--navy);">04</div>
+            <div style="font-size:13px; font-weight:800; color:var(--navy);">고객 유입 · 전환 마케팅</div>
           </div>
           <div style="display:flex; flex-direction:column; gap:6px;">
             <div style="padding:8px 12px; border-radius:8px; background:var(--soft-gray); font-size:12px; color:#374151;">
@@ -566,36 +566,36 @@ a{text-decoration:none}
               <span style="color:#374151;">월 클릭 477건 → 1,000건 · 예산 50→200만원</span>
             </div>
           </div>
-          <div style="margin-top:8px; font-size:11px; color:#6b7280;">→ 정책 개편 효과, 마케팅 없이는 고객에게 닿지 않습니다</div>
+          <div style="margin-top:8px; font-size:12px; color:var(--muted);">→ 정책 개편 효과, 마케팅 없이는 고객에게 닿지 않습니다</div>
         </div>
 
       </div>
 
       <!-- 하단: 흐름 요약 -->
-      <div style="margin-top:14px; padding:10px 16px; background:#f8fafc; border-radius:10px; display:flex; align-items:center; gap:0; justify-content:center; flex-wrap:wrap;">
+      <div style="margin-top:16px; padding:10px 16px; background:var(--soft-gray); border-radius:8px; display:flex; align-items:center; gap:0; justify-content:center; flex-wrap:wrap;">
         <div style="text-align:center; padding:6px 14px;">
-          <div style="font-size:11px; color:#64748b; font-weight:600;">등급제 개편</div>
-          <div style="font-size:10px; color:#94a3b8; margin-top:2px;">접근성 향상</div>
+          <div style="font-size:12px; color:#64748b; font-weight:600;">등급제 개편</div>
+          <div style="font-size:12px; color:#94a3b8; margin-top:4px;">접근성 향상</div>
         </div>
         <div style="font-size:16px; color:#cbd5e1; padding:0 4px;">→</div>
         <div style="text-align:center; padding:6px 14px;">
-          <div style="font-size:11px; color:#64748b; font-weight:600;">마일리지 도입</div>
-          <div style="font-size:10px; color:#94a3b8; margin-top:2px;">구매 유인</div>
+          <div style="font-size:12px; color:#64748b; font-weight:600;">마일리지 도입</div>
+          <div style="font-size:12px; color:#94a3b8; margin-top:4px;">구매 유인</div>
         </div>
         <div style="font-size:16px; color:#cbd5e1; padding:0 4px;">→</div>
         <div style="text-align:center; padding:6px 14px;">
-          <div style="font-size:11px; color:#64748b; font-weight:600;">수수료 개편</div>
-          <div style="font-size:10px; color:#94a3b8; margin-top:2px;">경쟁력 확보</div>
+          <div style="font-size:12px; color:#64748b; font-weight:600;">수수료 개편</div>
+          <div style="font-size:12px; color:#94a3b8; margin-top:4px;">경쟁력 확보</div>
         </div>
         <div style="font-size:16px; color:#cbd5e1; padding:0 4px;">→</div>
         <div style="text-align:center; padding:6px 14px;">
-          <div style="font-size:11px; color:#64748b; font-weight:600;">마케팅 실행</div>
-          <div style="font-size:10px; color:#94a3b8; margin-top:2px;">유입·전환</div>
+          <div style="font-size:12px; color:#64748b; font-weight:600;">마케팅 실행</div>
+          <div style="font-size:12px; color:#94a3b8; margin-top:4px;">유입·전환</div>
         </div>
         <div style="font-size:16px; color:#cbd5e1; padding:0 4px;">→</div>
-        <div style="text-align:center; padding:6px 14px; background:#eff6ff; border-radius:8px;">
-          <div style="font-size:11px; color:#1d4ed8; font-weight:700;">서비스 만족도 개선</div>
-          <div style="font-size:10px; color:#1e40af; margin-top:2px;">재구매 · VIP 락인</div>
+        <div style="text-align:center; padding:6px 14px; background:var(--soft-blue); border-radius:8px;">
+          <div style="font-size:12px; color:#1d4ed8; font-weight:700;">서비스 만족도 개선</div>
+          <div style="font-size:12px; color:#1e40af; margin-top:4px;">재구매 · VIP 락인</div>
         </div>
       </div>
 
@@ -615,8 +615,6 @@ a{text-decoration:none}
                     <div class="page-no">3 / 09</div>
         </div>
        <div style="margin-top:28px;">
-  <div class="title-row">
-  </div>
   <div class="split-topdown">
     <div class="panel">
       <h3>월별 거래 추이</h3>
@@ -629,7 +627,7 @@ a{text-decoration:none}
       <table class="compare-table">
         <thead><tr><th>업체</th><th>최종 비용</th><th>비고</th></tr></thead>
         <tbody>
-          <tr><td><strong style="color:#dc2626;">비드바이</strong></td><td><strong style="color:#dc2626;">¥2,500</strong></td><td><strong style="color:#dc2626;">최고가</strong></td></tr>
+          <tr><td><strong style="color:var(--red);">비드바이</strong></td><td><strong style="color:var(--red);">¥2,500</strong></td><td><strong style="color:var(--red);">최고가</strong></td></tr>
           <tr><td>젠마켓</td><td>¥2,184</td><td>중상위권</td></tr>
 
           <tr><td>Buyee</td><td>¥1,750</td><td>저가권</td></tr>
@@ -646,7 +644,7 @@ a{text-decoration:none}
         <thead><tr><th>업체</th><th>최종 비용</th><th>비고</th></tr></thead>
         <tbody>
           <tr><td>엠재팬</td><td>¥8,200</td><td>최고가</td></tr>
-          <tr><td><strong style="color:#dc2626;">비드바이</strong></td><td><strong style="color:#dc2626;">¥7,950</strong></td><td><strong style="color:#dc2626;">상위권</strong></td></tr>
+          <tr><td><strong style="color:var(--red);">비드바이</strong></td><td><strong style="color:var(--red);">¥7,950</strong></td><td><strong style="color:var(--red);">상위권</strong></td></tr>
           <tr><td>젠마켓</td><td>¥7,434</td><td>중위권</td></tr>
           <tr><td>Buyee</td><td>¥7,000</td><td>최저가권</td></tr>
         </tbody>
@@ -683,13 +681,13 @@ a{text-decoration:none}
       <span class="kicker">04 · VIP Churn Risk</span>
       <div class="title-row">
         <div>
-          <h2 class="h2">24년도~25년 하반기 기간 내 VIP 이력이 있는 고객중,<br>최근 6개월 <strong style="color:#dc2626;">미등재 고객 총 188명</strong></h2>
+          <h2 class="h2">24년도~25년 하반기 기간 내 VIP 이력이 있는 고객중,<br>최근 6개월 <strong style="color:var(--red);">미등재 고객 총 188명</strong></h2>
         </div>
         <div class="page-no">4 / 09</div>
       </div>
 
       <!-- 상단 KPI 3개 -->
-      <div class="three-col" style="margin-top:18px;">
+      <div class="three-col" style="margin-top:16px;">
         <div class="metric soft-red">
           <div class="label">VIP 순감소 (표면)</div>
           <div class="value">-21.6%</div>
@@ -708,7 +706,7 @@ a{text-decoration:none}
       </div>
 
       <!-- 메인 2단 레이아웃 -->
-      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:18px; align-items:stretch;">
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:16px; align-items:stretch;">
 
         <!-- 왼쪽: 차트 + 인사이트 하나의 패널로 통합 -->
         <div class="panel" style="display:flex; flex-direction:column; gap:14px;">
@@ -722,7 +720,7 @@ a{text-decoration:none}
 
           <div style="flex:1; display:flex; flex-direction:column; justify-content:flex-end; gap:10px;">
             <div class="insight amber">
-              <span style="font-size:16px; font-weight:700;">VIP 이탈 속도가 신규 유입을 앞지르고 있습니다.</span><br><br>
+              <span style="font-size:16px; font-weight:700;">VIP 이탈 속도가 신규 유입을 앞지르고 있습니다.</span><br>
 2024~2025년 VIP 등재 이력이 있는 고객 중 <br>
 <strong>188명이 2026년 이후 VIP 명단에서 사라졌습니다.</strong><br>
 이들은 완전 이탈 또는 등급 하락한 고객의 수도 포함하며, <br>— 현재 일반·우수 등급으로 거래 횟수가 크게 줄어든 상태입니다.
@@ -750,33 +748,33 @@ a{text-decoration:none}
               </div>
 
               <div style="padding:10px 12px; border-radius:12px; border:1px solid var(--line); border-left:4px solid #fca5a5; background:#fff; flex:1;">
-                <div style="font-size:11px; color:var(--muted);">VIP 1건 수익</div>
-                <div style="font-size:13px; font-weight:700; margin-top:3px;">¥15,963 × 5% + ¥300</div>
-                <div style="font-size:16px; font-weight:900; color:#374151; margin-top:2px;">= ¥1,098 / 건</div>
+                <div style="font-size:12px; color:var(--muted);">VIP 1건 수익</div>
+                <div style="font-size:13px; font-weight:700; margin-top:4px;">¥15,963 × 5% + ¥300</div>
+                <div style="font-size:16px; font-weight:900; color:#374151; margin-top:4px;">= ¥1,098 / 건</div>
               </div>
 
               <div style="text-align:center; font-size:13px; color:#fca5a5; line-height:1;">↓</div>
 
               <div style="padding:10px 12px; border-radius:12px; border:1px solid var(--line); border-left:4px solid #fca5a5; background:#fff; flex:1;">
-                <div style="font-size:11px; color:var(--muted);">VIP 1인 월 수익</div>
-                <div style="font-size:13px; font-weight:700; margin-top:3px;">¥1,098 × 23건</div>
-                <div style="font-size:16px; font-weight:900; color:#374151; margin-top:2px;">≈ ¥25,254 / 월</div>
+                <div style="font-size:12px; color:var(--muted);">VIP 1인 월 수익</div>
+                <div style="font-size:13px; font-weight:700; margin-top:4px;">¥1,098 × 23건</div>
+                <div style="font-size:16px; font-weight:900; color:#374151; margin-top:4px;">≈ ¥25,254 / 월</div>
               </div>
 
               <div style="text-align:center; font-size:13px; color:#fca5a5; line-height:1;">↓</div>
 
               <div style="padding:10px 12px; border-radius:12px; border:1px solid var(--line); border-left:4px solid var(--red); background:#fff; flex:1;">
-                <div style="font-size:11px; color:var(--muted);">월 손실 (188명)</div>
-                <div style="font-size:13px; font-weight:700; margin-top:3px;">¥25,254 × 188명</div>
-                <div style="font-size:16px; font-weight:900; color:#dc2626; margin-top:2px;">≈ 월 약 4,607만원</div>
+                <div style="font-size:12px; color:var(--muted);">월 손실 (188명)</div>
+                <div style="font-size:13px; font-weight:700; margin-top:4px;">¥25,254 × 188명</div>
+                <div style="font-size:16px; font-weight:900; color:var(--red); margin-top:4px;">≈ 월 약 4,607만원</div>
               </div>
 
               <div style="text-align:center; font-size:13px; color:#fca5a5; line-height:1;">↓</div>
 
               <div style="padding:12px 14px; border-radius:12px; border:1px solid #fecaca; border-left:4px solid #7f1d1d; background:var(--soft-red); flex:1;">
-                <div style="font-size:11px; color:#991b1b;">연간 손실</div>
-                <div style="font-size:22px; font-weight:900; color:#991b1b; margin-top:3px;">약 5.5억원</div>
-                <div style="font-size:11px; color:#991b1b; margin-top:2px;">비드바이 순이익 감소분</div>
+                <div style="font-size:12px; color:#991b1b;">연간 손실</div>
+                <div style="font-size:22px; font-weight:900; color:#991b1b; margin-top:4px;">약 5.5억원</div>
+                <div style="font-size:12px; color:#991b1b; margin-top:4px;">비드바이 순이익 감소분</div>
               </div>
             </div>
 
@@ -787,33 +785,33 @@ a{text-decoration:none}
               </div>
 
               <div style="padding:10px 12px; border-radius:12px; border:1px solid var(--line); border-left:4px solid #fcd34d; background:#fff; flex:1;">
-                <div style="font-size:11px; color:var(--muted);">VIP 평균 낙찰가</div>
-                <div style="font-size:13px; font-weight:700; margin-top:3px;">2025년도 VIP 거래 기준</div>
-                <div style="font-size:16px; font-weight:900; color:#374151; margin-top:2px;">¥15,963 / 건</div>
+                <div style="font-size:12px; color:var(--muted);">VIP 평균 낙찰가</div>
+                <div style="font-size:13px; font-weight:700; margin-top:4px;">2025년도 VIP 거래 기준</div>
+                <div style="font-size:16px; font-weight:900; color:#374151; margin-top:4px;">¥15,963 / 건</div>
               </div>
 
               <div style="text-align:center; font-size:13px; color:#fcd34d; line-height:1;">↓</div>
 
               <div style="padding:10px 12px; border-radius:12px; border:1px solid var(--line); border-left:4px solid #fcd34d; background:#fff; flex:1;">
-                <div style="font-size:11px; color:var(--muted);">VIP 1인 월 거래액</div>
-                <div style="font-size:13px; font-weight:700; margin-top:3px;">¥15,963 × 23건</div>
-                <div style="font-size:16px; font-weight:900; color:#374151; margin-top:2px;">≈ ¥367,149 / 월</div>
+                <div style="font-size:12px; color:var(--muted);">VIP 1인 월 거래액</div>
+                <div style="font-size:13px; font-weight:700; margin-top:4px;">¥15,963 × 23건</div>
+                <div style="font-size:16px; font-weight:900; color:#374151; margin-top:4px;">≈ ¥367,149 / 월</div>
               </div>
 
               <div style="text-align:center; font-size:13px; color:#fcd34d; line-height:1;">↓</div>
 
               <div style="padding:10px 12px; border-radius:12px; border:1px solid var(--line); border-left:4px solid #f59e0b; background:#fff; flex:1;">
-                <div style="font-size:11px; color:var(--muted);">월 잠재 거래액 (188명)</div>
-                <div style="font-size:13px; font-weight:700; margin-top:3px;">¥367,149 × 188명</div>
-                <div style="font-size:16px; font-weight:900; color:#d97706; margin-top:2px;">= ¥69,023,812</div>
+                <div style="font-size:12px; color:var(--muted);">월 잠재 거래액 (188명)</div>
+                <div style="font-size:13px; font-weight:700; margin-top:4px;">¥367,149 × 188명</div>
+                <div style="font-size:16px; font-weight:900; color:var(--amber); margin-top:4px;">= ¥69,023,812</div>
               </div>
 
               <div style="text-align:center; font-size:13px; color:#fcd34d; line-height:1;">↓</div>
 
               <div style="padding:12px 14px; border-radius:12px; border:1px solid #fde68a; border-left:4px solid var(--amber); background:var(--soft-amber); flex:1;">
-                <div style="font-size:11px; color:#92400e;">월 잠재 거래액 감소</div>
-                <div style="font-size:22px; font-weight:900; color:#92400e; margin-top:3px;">월 약 6.8억원</div>
-                <div style="font-size:11px; color:#92400e; margin-top:2px;">※ 낙찰가 기준 참고 수치</div>
+                <div style="font-size:12px; color:#92400e;">월 잠재 거래액 감소</div>
+                <div style="font-size:22px; font-weight:900; color:#92400e; margin-top:4px;">월 약 6.8억원</div>
+                <div style="font-size:12px; color:#92400e; margin-top:4px;">※ 낙찰가 기준 참고 수치</div>
               </div>
             </div>
 
@@ -832,7 +830,7 @@ a{text-decoration:none}
       </div>
 
       <!-- 하단 주석 -->
-      <div style="margin-top:14px; padding:10px 14px; border-radius:10px; background:#f8fafc; border:1px solid var(--line); font-size:11px; color:#9ca3af; line-height:1.8;">
+      <div style="margin-top:16px; padding:10px 14px; border-radius:8px; background:var(--soft-gray); border:1px solid var(--line); font-size:12px; color:#9ca3af; line-height:1.8;">
         * ① 수수료 손실 기준: 2025년도 VIP 95명 · 연간 거래 26,187건 · 월 평균 23건/인 · 평균 낙찰가 ¥15,963 · 수수료율 5% + 송금수수료 ¥300<br>
         * ② 거래액 기준: 동일 모수(188명 · 월 23건 · ¥15,963) 적용 · 물품 낙찰가 기준 (수수료 미포함 · 비드바이 직접 매출 아님)<br>
         * 이탈 정의: 2024.01~2025.10 VIP 이력 보유 고객 중 2025.11~2026.04(6개월) VIP 미포함 고객 기준 · 총 188명
@@ -877,13 +875,13 @@ a{text-decoration:none}
                 
               </tr>
               <tr>
-                <td style="text-align:center;"><strong style="color:#dc2626;">✅ 2안</strong></td>
+                <td style="text-align:center;"><strong style="color:var(--red);">✅ 2안</strong></td>
                 
                 <td style="text-align:center;">구매 ¥300 ↓ <br>+ <strong>구매 송금수수료 폐지</strong>
-                <br><strong style="color:#dc2626;">*메루카리 제외</strong></td>
-                <td style="text-align:center;"><strong style="color:#dc2626;">수수료 수익 감소 연 8% ↓</strong><br>구매대행 중심 인하</td>
+                <br><strong style="color:var(--red);">*메루카리 제외</strong></td>
+                <td style="text-align:center;"><strong style="color:var(--red);">수수료 수익 감소 연 8% ↓</strong><br>구매대행 중심 인하</td>
                 
-                <td style="text-align:center;"><strong style="color:#dc2626;">인하 효과가 제한적일 수 있음</strong><br>체감 할인 강도가 약함</td>
+                <td style="text-align:center;"><strong style="color:var(--red);">인하 효과가 제한적일 수 있음</strong><br>체감 할인 강도가 약함</td>
                 <td style="text-align:center;"><span class="pill green" style="font-size:16px; font-weight:700;">  ✅추천안</span></td>
               </tr>
               <tr>
@@ -905,7 +903,6 @@ a{text-decoration:none}
               </tr>
             </tbody>
           </table>
-           <br><br>
           <h3>👇 수수료 2안 변경 포인트</h3>
         <div class="subtitle" style="margin-bottom:12px;">
       구매대행 수수료 인하 및 송금수수료 폐지, 경매대행은 수익 구조 유지
@@ -925,13 +922,13 @@ a{text-decoration:none}
           <td style="text-align:center;" rowspan="2"><strong>구매대행</strong></td>
           <td style="text-align:center;">¥5,000 이하</td>
           <td style="text-align:center;">¥800</td>
-          <td style="text-align:center;"><strong style="color:#dc2626;">¥500</strong></td>
+          <td style="text-align:center;"><strong style="color:var(--red);">¥500</strong></td>
           <td style="text-align:center;"><strong>메루카리 포함 구매대행 일괄 인하</strong></td>
         </tr>
         <tr>
           <td style="text-align:center;">송금수수료</td>
           <td style="text-align:center;">¥300</td>
-          <td style="text-align:center;"><strong style="color:#dc2626;">폐지</strong></td>
+          <td style="text-align:center;"><strong style="color:var(--red);">폐지</strong></td>
           <td style="text-align:center;">체감 비용 즉시 감소<strong><br>(단, 메루카리는 송금수수료 부과)</strong></td>
         </tr>
         <tr>
@@ -964,7 +961,7 @@ a{text-decoration:none}
     </div>
   </div><br>
 <div style="margin-top:20px; display:flex; flex-direction:column; gap:10px;">
-            <h2 class="h2">2. 수수료 부과 구간 변경</h2>
+            <h3 style="font-size:20px; font-weight:800; letter-spacing:-.02em; margin:0;">2. 수수료 부과 구간 변경</h3>
             <div class="subtitle">수익 감소 수준과 가격 경쟁력, 추가 수익 회수 가능성을 기준으로 검토한 수수료 개편안</div>
           </div><br>
    <div class="panel">
@@ -980,10 +977,10 @@ a{text-decoration:none}
       <tbody>
         <tr style="height:30px;">
           <td style="text-align:center; vertical-align:middle;">
-            <strong style="color:#dc2626;">¥5,000 이하</strong>
+            <strong style="color:var(--red);">¥5,000 이하</strong>
           </td>
           <td colspan="3" style="text-align:center; vertical-align:middle;">
-            <strong style="color:#dc2626;">경매 ¥800 / 구매 ¥500</strong>
+            <strong style="color:var(--red);">경매 ¥800 / 구매 ¥500</strong>
           </td>
         </tr>
         <tr>
@@ -1038,23 +1035,23 @@ a{text-decoration:none}
         <div class="split-topdown">
           <div class="panel">
                          <!-- 등급 5단계 → 3단계 -->
-              <div style="background:var(--soft-gray); border-radius:14px; padding:16px 18px;">
+              <div style="background:var(--soft-gray); border-radius:12px; padding:16px 18px;">
                 <div style="font-size:15px; font-weight:700; color:var(--blue); letter-spacing:.06em; margin-bottom:10px;">GRADE RESTRUCTURING</div><br>
                 <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
 
                   <!-- 현행 5단계 -->
                   <div style="flex:1; min-width:180px;">
                    <div style="display:flex; flex-direction:column; gap:4px;">
-                      <div style="background:#f2f3f7; border-radius:6px; padding:5px 10px; font-size:12px; text-align:center;">신규
-                      <br><span style="font-size:13px; color:var(--muted); margin-top:2px;">등급 포인트 0점~49점</span></div>
-                      <div style="background:#ebecf0; border-radius:6px; padding:5px 10px; font-size:12px; text-align:center;">일반
-                        <br><span style="font-size:13px; color:var(--muted); margin-top:2px;">등급 포인트 50점~99점</span></div>
-                      <div style="background:#e9f4e9; border-radius:6px; padding:5px 10px; font-size:12px; text-align:center;">우수
-                        <br><span style="font-size:13px; color:var(--muted); margin-top:2px;">등급 포인트 100점~199점</span></div>
-                      <div style="background:#c3dbc9; border-radius:6px; padding:5px 10px; font-size:12px; text-align:center;">프리미엄
-                        <br><span style="font-size:13px; color:var(--muted); margin-top:2px;">등급 포인트 200점이상</span></div>
-                      <div style="background:#c6def9; border-radius:6px; padding:5px 10px; font-size:12px; text-align:center; font-weight:700;">VIP
-                        <br><span style="font-size:13px; color:var(--muted); margin-top:2px;">등급 포인트 500점 & 거래건수 70건 이상</span></div>
+                      <div style="background:#f2f3f7; border-radius:8px; padding:5px 10px; font-size:12px; text-align:center;">신규
+                      <br><span style="font-size:13px; color:var(--muted); margin-top:4px;">등급 포인트 0점~49점</span></div>
+                      <div style="background:#ebecf0; border-radius:8px; padding:5px 10px; font-size:12px; text-align:center;">일반
+                        <br><span style="font-size:13px; color:var(--muted); margin-top:4px;">등급 포인트 50점~99점</span></div>
+                      <div style="background:#e9f4e9; border-radius:8px; padding:5px 10px; font-size:12px; text-align:center;">우수
+                        <br><span style="font-size:13px; color:var(--muted); margin-top:4px;">등급 포인트 100점~199점</span></div>
+                      <div style="background:#c3dbc9; border-radius:8px; padding:5px 10px; font-size:12px; text-align:center;">프리미엄
+                        <br><span style="font-size:13px; color:var(--muted); margin-top:4px;">등급 포인트 200점이상</span></div>
+                      <div style="background:#c6def9; border-radius:8px; padding:5px 10px; font-size:12px; text-align:center; font-weight:700;">VIP
+                        <br><span style="font-size:13px; color:var(--muted); margin-top:4px;">등급 포인트 500점 & 거래건수 70건 이상</span></div>
                     </div>
                   </div>
 
@@ -1064,19 +1061,19 @@ a{text-decoration:none}
                   <!-- 개선안 3단계 -->
                   <div style="flex:1; min-width:180px;">    
                     <div style="display:flex; flex-direction:column; gap:4px;">
-                      <div style="background:#ebecf0; border-radius:6px; padding:9px 10px; font-size:12px; text-align:center; position:relative;">
+                      <div style="background:#ebecf0; border-radius:8px; padding:9px 10px; font-size:12px; text-align:center; position:relative;">
                         <span style="font-weight:700;">일반</span>
-                        <br><span style="font-size:13px; color:var(--muted); margin-top:2px;">(월 0 ~ 4건)</span>
+                        <br><span style="font-size:13px; color:var(--muted); margin-top:4px;">(월 0 ~ 4건)</span>
                         <span style="font-size:12px; color:var(--muted); display:block;">신규 + 일반 통합</span>
                       </div>
-                      <div style="background:#c3dbc9; border-radius:6px; padding:9px 10px; font-size:12px; text-align:center; position:relative;">
+                      <div style="background:#c3dbc9; border-radius:8px; padding:9px 10px; font-size:12px; text-align:center; position:relative;">
                         <span style="font-weight:700;">프리미엄</span>
-                        <br><span style="font-size:13px; color:var(--muted); margin-top:2px;">(월 5 ~ 9건)</span>
+                        <br><span style="font-size:13px; color:var(--muted); margin-top:4px;">(월 5 ~ 9건)</span>
                         <span style="font-size:12px; color:var(--muted); display:block;">우수 + 프리미엄 통합</span>
                       </div>
-                      <div style="background:#c6def9; border-radius:6px; padding:9px 10px; font-size:12px; text-align:center; position:relative;">
+                      <div style="background:#c6def9; border-radius:8px; padding:9px 10px; font-size:12px; text-align:center; position:relative;">
                         <span style="font-weight:700;">VIP</span>
-                        <br><span style="font-size:13px; color:var(--muted); margin-top:2px;">(월 10건 이상)</span>
+                        <br><span style="font-size:13px; color:var(--muted); margin-top:4px;">(월 10건 이상)</span>
                         <span style="font-size:12px; color:var(--muted); display:block;">기존 VIP회원</span>
                       </div>
                                         </div>
@@ -1093,7 +1090,7 @@ a{text-decoration:none}
               <thead><tr><th style="text-align:center;">일반</th><th style="text-align:center;">프리미엄</th><th style="text-align:center;">VIP</th></tr></thead>
               <tbody>
                 <tr><td style="text-align:center;">월간 마일리지 5,000원 지급</td><td style="text-align:center;">월간 마일리지 10,000원 지급</td><td style="text-align:center;">월간 마일리지 20,000원 지급</td></tr>
-                <tr><td style="text-align:center;">마일리지 2% 적립</td><td style="text-align:center;"><strong>마일리지 5% 적립</strong></td><td style="text-align:center;"><strong style="color:#dc2626;">마일리지 10% 적립</strong></td></tr>
+                <tr><td style="text-align:center;">마일리지 2% 적립</td><td style="text-align:center;"><strong>마일리지 5% 적립</strong></td><td style="text-align:center;"><strong style="color:var(--red);">마일리지 10% 적립</strong></td></tr>
                 <tr><td style="text-align:center;">기본 보관일(30일)</td><td style="text-align:center;">기본 보관 +10일</td><td style="text-align:center;">기본 보관 +20일</td></tr>
                 <tr><td style="text-align:center;">재포장 비용 구간별 발생<br>(2~5건 : ¥100 6~15건 : ¥300)</td><td style="text-align:center;">재포장 최대 15건 ¥300 고정</td><td style="text-align:center;">재포장 비용 무료</td></tr>
                 <tr><td style="text-align:center;">-</td><td style="text-align:center;">생일 쿠폰 10,000원</td><td style="text-align:center;">생일 쿠폰 10,000원</td></tr>
@@ -1119,8 +1116,8 @@ a{text-decoration:none}
       <div class="panel" style="margin-top:16px;">
         <h3>수익 감소 구조</h3>
         <div class="h4">대행수수료 인하 + 구매대행 송금수수료 폐지의 복합 효과</div>
-        <div class="two-col" style="margin-top:14px;">
-          <div style="display:flex; align-items:center; gap:16px; padding:16px 20px; border-radius:16px; background:var(--soft-red); border:1px solid #fecaca;">
+        <div class="two-col" style="margin-top:16px;">
+          <div style="display:flex; align-items:center; gap:16px; padding:16px 20px; border-radius:12px; background:var(--soft-red); border:1px solid #fecaca;">
             <div style="font-size:32px; flex-shrink:0;">📉</div>
             <div>
               <div style="font-size:12px; color:#991b1b; font-weight:700; letter-spacing:.06em;">대행수수료 인하</div>
@@ -1128,7 +1125,7 @@ a{text-decoration:none}
               <div style="font-size:13px; color:#991b1b; margin-top:4px;">구매대행 ¥800 → ¥500 · 전 거래 건 적용</div>
             </div>
           </div>
-          <div style="display:flex; align-items:center; gap:16px; padding:16px 20px; border-radius:16px; background:var(--soft-red); border:1px solid #fecaca;">
+          <div style="display:flex; align-items:center; gap:16px; padding:16px 20px; border-radius:12px; background:var(--soft-red); border:1px solid #fecaca;">
             <div style="font-size:32px; flex-shrink:0;">🚫</div>
             <div>
               <div style="font-size:12px; color:#991b1b; font-weight:700; letter-spacing:.06em;">구매대행 송금수수료 폐지</div>
@@ -1152,14 +1149,14 @@ a{text-decoration:none}
           <div style="display:flex; align-items:center; gap:10px; margin-bottom:4px;">
             <span style="font-size:22px;">📦</span>
             <div>
-              <div style="font-size:11px; font-weight:800; color:var(--green); letter-spacing:.06em;">OPTION 01</div>
+              <div style="font-size:12px; font-weight:800; color:var(--green); letter-spacing:.06em;">OPTION 01</div>
               <h3 style="margin:2px 0 0; font-size:18px;">패킹 수수료(서비스명 변경 예정)</h3>
             </div>
           </div>
           <div class="panel-sub" style="margin-bottom:14px;">포장 작업에 대한 실비 수수료 부과</div>
 
           <!-- 1안 -->
-          <div style="padding:16px; border-radius:14px; background:var(--soft-green); border:1px solid #bbf7d0; margin-bottom:10px;">
+          <div style="padding:16px; border-radius:12px; background:var(--soft-green); border:1px solid #bbf7d0; margin-bottom:10px;">
             <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;">
               <span style="font-size:12px; font-weight:800; color:var(--green); letter-spacing:.06em;">1안 · 구간별 부과 / 3구간</span>
               <span style="font-size:14px;" class="pill green">권장</span>
@@ -1168,21 +1165,21 @@ a{text-decoration:none}
               개별 1건 <strong>¥100</strong> / 2~5건 <strong>¥300</strong> / 6~15건 <strong>¥500</strong><br>
             </div>
             <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
-              <div style="background:#fff; border-radius:10px; padding:10px 12px; text-align:center;">
-                <div style="font-size:11px; color:var(--muted);">전건 부과시</div>
-                <div style="font-size:18px; font-weight:900; color:var(--green); margin-top:2px;">+월 600만원</div>
-                <div style="font-size:11px; color:var(--muted);">월 평균 6,510건 * ¥100</div>
+              <div style="background:#fff; border-radius:8px; padding:10px 12px; text-align:center;">
+                <div style="font-size:12px; color:var(--muted);">전건 부과시</div>
+                <div style="font-size:18px; font-weight:900; color:var(--green); margin-top:4px;">+월 600만원</div>
+                <div style="font-size:12px; color:var(--muted);">월 평균 6,510건 * ¥100</div>
               </div>
-              <div style="background:#fff; border-radius:10px; padding:10px 12px; text-align:center;">
-                <div style="font-size:11px; color:var(--muted);">손실 회수율</div>
-                <div style="font-size:18px; font-weight:900; color:var(--green); margin-top:2px;">86%</div>
-                <div style="font-size:11px; color:var(--muted);">월 손실 740만 기준</div>
+              <div style="background:#fff; border-radius:8px; padding:10px 12px; text-align:center;">
+                <div style="font-size:12px; color:var(--muted);">손실 회수율</div>
+                <div style="font-size:18px; font-weight:900; color:var(--green); margin-top:4px;">86%</div>
+                <div style="font-size:12px; color:var(--muted);">월 손실 740만 기준</div>
               </div>
             </div>
           </div>
 
           <!-- 2안 -->
-          <div style="padding:16px; border-radius:14px; background:var(--soft-gray); border:1px solid var(--line);">
+          <div style="padding:16px; border-radius:12px; background:var(--soft-gray); border:1px solid var(--line);">
             <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;">
               <span style="font-size:12px; font-weight:800; color:var(--muted); letter-spacing:.06em;">2안 · 구간별 부과 / 2구간</span>
               <span style="font-size:14px;" class="pill amber">검토</span>
@@ -1192,12 +1189,12 @@ a{text-decoration:none}
               합배송 6건 이상~최대15건 <strong>¥300 부과</strong><br>
             </div>
             <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
-              <div style="background:#fff; border-radius:10px; padding:10px 12px; text-align:center;">
-                <div style="font-size:11px; color:var(--muted);">월 회수 금액</div>
-                <div style="font-size:18px; font-weight:900; color:var(--amber); margin-top:2px;">거래 패턴<br>따라 변동</div>
+              <div style="background:#fff; border-radius:8px; padding:10px 12px; text-align:center;">
+                <div style="font-size:12px; color:var(--muted);">월 회수 금액</div>
+                <div style="font-size:18px; font-weight:900; color:var(--amber); margin-top:4px;">거래 패턴<br>따라 변동</div>
               </div>
-              <div style="background:#fff; border-radius:10px; padding:10px 12px; text-align:center;">
-                <div style="font-size:11px; color:var(--muted);">특징</div>
+              <div style="background:#fff; border-radius:8px; padding:10px 12px; text-align:center;">
+                <div style="font-size:12px; color:var(--muted);">특징</div>
                 <div style="font-size:13px; font-weight:700; color:#374151; margin-top:4px;">소량 거래 고객<br>부담 완화</div>
               </div>
             </div>
@@ -1209,14 +1206,14 @@ a{text-decoration:none}
           <div style="display:flex; align-items:center; gap:10px; margin-bottom:4px;">
             <span style="font-size:22px;">🛡</span>
             <div>
-              <div style="font-size:11px; font-weight:800; color:var(--blue); letter-spacing:.06em;">OPTION 02</div>
+              <div style="font-size:12px; font-weight:800; color:var(--blue); letter-spacing:.06em;">OPTION 02</div>
               <h3 style="margin:2px 0 0; font-size:18px;">비바 안심 플랜</h3>
             </div>
           </div>
           <div class="panel-sub" style="margin-bottom:14px;">주문 건당 청구형 보험 개념 + 고객 안심 설계</div>
 
           <!-- 1안 -->
-          <div style="padding:16px; border-radius:14px; background:var(--soft-blue); border:1px solid #bfdbfe; margin-bottom:10px;">
+          <div style="padding:16px; border-radius:12px; background:var(--soft-blue); border:1px solid #bfdbfe; margin-bottom:10px;">
             <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;">
               <span style="font-size:12px; font-weight:800; color:var(--blue); letter-spacing:.06em;">1안 · 저가형 ¥100</span>
               <span class="pill blue">진입 낮음</span>
@@ -1226,20 +1223,20 @@ a{text-decoration:none}
               가입 진입 장벽 낮음 · 가입률 높을 가능성
             </div>
             <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
-              <div style="background:#fff; border-radius:10px; padding:10px 12px; text-align:center;">
-                <div style="font-size:11px; color:var(--muted);">10% 도입 시</div>
-                <div style="font-size:18px; font-weight:900; color:var(--blue); margin-top:2px;">+651건 × ¥100</div>
-                <div style="font-size:11px; color:var(--muted);">월 약 64만원</div>
+              <div style="background:#fff; border-radius:8px; padding:10px 12px; text-align:center;">
+                <div style="font-size:12px; color:var(--muted);">10% 도입 시</div>
+                <div style="font-size:18px; font-weight:900; color:var(--blue); margin-top:4px;">+651건 × ¥100</div>
+                <div style="font-size:12px; color:var(--muted);">월 약 64만원</div>
               </div>
-              <div style="background:#fff; border-radius:10px; padding:10px 12px; text-align:center;">
-                <div style="font-size:11px; color:var(--muted);">특징</div>
+              <div style="background:#fff; border-radius:8px; padding:10px 12px; text-align:center;">
+                <div style="font-size:12px; color:var(--muted);">특징</div>
                 <div style="font-size:13px; font-weight:700; color:#374151; margin-top:4px;">낮은 단가로<br>넓은 도달</div>
               </div>
             </div>
           </div>
 
           <!-- 2안 -->
-          <div style="padding:16px; border-radius:14px; background:var(--soft-gray); border:1px solid var(--line);">
+          <div style="padding:16px; border-radius:12px; background:var(--soft-gray); border:1px solid var(--line);">
             <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;">
               <span style="font-size:12px; font-weight:800; color:var(--muted); letter-spacing:.06em;">2안 · 프리미엄형 ¥300</span>
               <span class="pill amber">추가 검토</span>
@@ -1249,13 +1246,13 @@ a{text-decoration:none}
               소수 가입으로도 동일 회수 가능
             </div>
             <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
-              <div style="background:#fff; border-radius:10px; padding:10px 12px; text-align:center;">
-                <div style="font-size:11px; color:var(--muted);">5% 도입 시</div>
-                <div style="font-size:18px; font-weight:900; color:var(--amber); margin-top:2px;">+776만원</div>
-                <div style="font-size:11px; color:var(--muted);">월 회수 기준</div>
+              <div style="background:#fff; border-radius:8px; padding:10px 12px; text-align:center;">
+                <div style="font-size:12px; color:var(--muted);">5% 도입 시</div>
+                <div style="font-size:18px; font-weight:900; color:var(--amber); margin-top:4px;">+776만원</div>
+                <div style="font-size:12px; color:var(--muted);">월 회수 기준</div>
               </div>
-              <div style="background:#fff; border-radius:10px; padding:10px 12px; text-align:center;">
-                <div style="font-size:11px; color:var(--muted);">특징</div>
+              <div style="background:#fff; border-radius:8px; padding:10px 12px; text-align:center;">
+                <div style="font-size:12px; color:var(--muted);">특징</div>
                 <div style="font-size:13px; font-weight:700; color:#374151; margin-top:4px;">소수 가입으로<br>高회수 가능</div>
               </div>
             </div>
@@ -1265,7 +1262,7 @@ a{text-decoration:none}
       </div>
 
       <!-- 후순위 옵션 안내 -->
-      <div class="insight amber" style="margin-top:14px;">
+      <div class="insight amber" style="margin-top:16px;">
         <strong>후순위 검토:</strong> 안심포장 / 사진촬영 등 패키지형 옵션은 리뉴얼 이후 운영 안정화 단계에서 별도 검토 예정입니다.
       </div>
 
@@ -1317,7 +1314,7 @@ a{text-decoration:none}
               <tr>
                 <td><strong>신규회원</strong></td>
                 <td>17%</td>
-                <td><strong style="color:#dc2626;">2%</strong></td>
+                <td><strong style="color:var(--red);">2%</strong></td>
                 <td>1,620만원</td>
               </tr>
               <tr>
@@ -1341,40 +1338,40 @@ a{text-decoration:none}
               <tr>
                 <td><strong>VIP회원</strong></td>
                 <td>55%</td>
-                <td><strong style="color:#dc2626;">83%</strong></td>
+                <td><strong style="color:var(--red);">83%</strong></td>
                 <td>1,964만원</td>
               </tr>
-              <tr style="background:#f8fafc; border-top:2px solid #e5e7eb;">
+              <tr style="background:var(--soft-gray); border-top:2px solid var(--line);">
                 <td colspan="3"><strong>실사용 합계</strong></td>
-                <td><strong style="color:#dc2626;">9,800만원</strong></td>
+                <td><strong style="color:var(--red);">9,800만원</strong></td>
               </tr>
             </tbody>
           </table>
 
-          <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:10px;">
-            <div style="background:#fef2f2; border-radius:10px; padding:10px 12px; text-align:center;">
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:12px;">
+            <div style="background:var(--soft-red); border-radius:8px; padding:10px 12px; text-align:center;">
               <div style="font-size:13x; color:#991b1b; margin-bottom:2px;">연간 쿠폰 발행 금액 합계</div>
-              <div style="font-size:15px; font-weight:700; color:#dc2626;">13,670만원</div>
+              <div style="font-size:15px; font-weight:700; color:var(--red);">13,670만원</div>
             </div>
-            <div style="background:#f0fdf4; border-radius:10px; padding:10px 12px; text-align:center;">
+            <div style="background:var(--soft-green); border-radius:8px; padding:10px 12px; text-align:center;">
               <div style="font-size:13px; color:#166534; margin-bottom:2px;">쿠폰 > 마일리지로 통합</div>
               <div style="font-size:15px; font-weight:700; color:#16a34a;">쿠폰은 이벤트성·등급 보상으로 운영</div>
             </div>
           </div>
 
-          <div style="margin-top:8px; padding:8px 12px; background:#f8fafc; border-left:3px solid #94a3b8; border-radius:0 8px 8px 0; font-size:11px; color:#64748b; line-height:1.6;">
+          <div style="margin-top:8px; padding:8px 12px; background:var(--soft-gray); border-left:3px solid #94a3b8; border-radius:0 8px 8px 0; font-size:12px; color:#64748b; line-height:1.6;">
             * 위 실사용 금액은 쿠폰 액면가와 실제 할인 적용액의 차이를 반영한 수치입니다.<br>
             &nbsp;&nbsp;(예: 5,000원 쿠폰 → 실제 할인 적용 3,800원 수준) 발행 기준 합계와 차이가 발생할 수 있습니다.
           </div>
         </div>
-      </div><br><br>
-  <h2 class="h2">마일리지로 전환 시 — 비용은 절감되고 고객 체감은 높아집니다</h2>
+      </div>
+  <h3 style="font-size:20px; font-weight:800; letter-spacing:-.02em; margin:0;">마일리지로 전환 시 — 비용은 절감되고 고객 체감은 높아집니다</h3>
          <div class="subtitle">쿠폰 1/3 축소(4,557만원) + 마일리지 도입(6,133만원)으로, 모든 거래에 혜택이 연동되는 구조로 전환합니다.</div>
-      <div class="two-col" style="margin-top:14px;">
+      <div class="two-col" style="margin-top:16px;">
         <div class="panel">
           <h3>마일리지 제도</h3>
           <div class="panel-sub">쿠폰 발행 수를 줄이되, 재구매를 유도하는 누적 보상 장치를 새롭게 도입합니다.</div>
-          <table class="compare-table" style="margin-top:14px;">
+          <table class="compare-table" style="margin-top:16px;">
             <thead>
               <tr>
                 <th>구분</th>
@@ -1384,11 +1381,11 @@ a{text-decoration:none}
             <tbody>
               <tr>
                 <td><strong>적립 기준</strong></td>
-                <td>대행 + 송금수수료 결제금액의<strong style="color:#dc2626;"> 2~10% 적립</strong></td>
+                <td>대행 + 송금수수료 결제금액의<strong style="color:var(--red);"> 2~10% 적립</strong></td>
               </tr>
               <tr>
                 <td><strong>사용 제한</strong></td>
-                <td><strong style="color:#dc2626;">1. 60일 이후 소멸<br>2. 1차결제시 대행수수료 최대 50%까지 사용</strong></td>
+                <td><strong style="color:var(--red);">1. 60일 이후 소멸<br>2. 1차결제시 대행수수료 최대 50%까지 사용</strong></td>
               </tr>
               <tr>
                 <td><strong>일반</strong><br>(신규~일반)</td>
@@ -1413,39 +1410,39 @@ a{text-decoration:none}
             <thead>
               <tr>
                 <th style="width:36%;"></th>
-                <th style="background:#fef2f2; color:#991b1b; text-align:center;font-size:15px;">쿠폰</th>
-                <th style="background:#f0fdf4; color:#166534; text-align:center;font-size:15px;">마일리지</th>
+                <th style="background:var(--soft-red); color:#991b1b; text-align:center;font-size:15px;">쿠폰</th>
+                <th style="background:var(--soft-green); color:#166534; text-align:center;font-size:15px;">마일리지</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td><strong>연간 비용(실사용)</strong></td>
-                <td style="background:#fef2f2; text-align:center; font-weight:700; color:#dc2626;">9,800만원</td>
-                <td style="background:#f0fdf4; text-align:center; font-weight:700; color:#16a34a;">6,200만원 (예상)</td>
+                <td style="background:var(--soft-red); text-align:center; font-weight:700; color:var(--red);">9,800만원</td>
+                <td style="background:var(--soft-green); text-align:center; font-weight:700; color:#16a34a;">6,200만원 (예상)</td>
               </tr>
               <tr>
                 <td><strong>도달률</strong></td>
-                <td style="background:#fef2f2; text-align:center; color:#dc2626;">100건 중 13건만 사용<br></td>
-                <td style="background:#f0fdf4; text-align:center; color:#16a34a;">1차결제 완료시 적립</td>
+                <td style="background:var(--soft-red); text-align:center; color:var(--red);">100건 중 13건만 사용<br></td>
+                <td style="background:var(--soft-green); text-align:center; color:#16a34a;">1차결제 완료시 적립</td>
               </tr>
               <tr>
                 <td><strong>체감 시점</strong></td>
-                <td style="background:#fef2f2; text-align:center;">한달 후 소멸</td>
-                <td style="background:#f0fdf4; text-align:center;">결제할 때마다 바로 쌓임</td>
+                <td style="background:var(--soft-red); text-align:center;">한달 후 소멸</td>
+                <td style="background:var(--soft-green); text-align:center;">결제할 때마다 바로 쌓임</td>
               </tr>
               <tr>
                 <td><strong>재구매 연계</strong></td>
-                <td style="background:#fef2f2; text-align:center;">최고 5,000원 / 미비</td>
-                <td style="background:#f0fdf4; text-align:center;">등급 오를수록 적립률 상승</td>
+                <td style="background:var(--soft-red); text-align:center;">최고 5,000원 / 미비</td>
+                <td style="background:var(--soft-green); text-align:center;">등급 오를수록 적립률 상승</td>
               </tr>
               <tr>
                 <td><strong>이탈 방지</strong></td>
-                <td style="background:#fef2f2; text-align:center;">없음</td>
-                <td style="background:#f0fdf4; text-align:center;">잔여 포인트가 억제</td>
+                <td style="background:var(--soft-red); text-align:center;">없음</td>
+                <td style="background:var(--soft-green); text-align:center;">잔여 포인트가 억제</td>
               </tr>
             </tbody>
           </table>
-          <div class="insight green" style="margin-top:10px;">
+          <div class="insight green" style="margin-top:12px;">
             마일리지는 <strong>거래할수록 혜택이 커지는 구조</strong>로 체감 만족도가 높습니다.<br>
             쿠폰 사용률 13.2%(발행 대비) 대비, 마일리지는 <strong>모든 거래에서 적립</strong>됩니다.
           </div>
@@ -1488,7 +1485,7 @@ a{text-decoration:none}
         </div>
       </div>
 
-      <div class="two-col" style="margin-top:18px;">
+      <div class="two-col" style="margin-top:16px;">
 
         <!-- 왼쪽: 목표 4개 카드 -->
         <div>
@@ -1502,7 +1499,7 @@ a{text-decoration:none}
                 <p class="goal-desc">
                   ✔️ 유류비 인상 없이 그대로
                   <br>✔️  엔화 환율 하락 알림
-                  <br>✔️ 대행 수수료 인하 광고톡
+                  <br>✔️ 대행 수수료 인하 광고톡</p>
                   
               </div>
 
@@ -1607,7 +1604,7 @@ new Chart(document.getElementById('txChart'), {
     plugins:{legend:{position:'top', labels:{usePointStyle:true, boxWidth:10}}},
     scales:{
       x:{grid:{display:false}},
-      y:{grid:{color:'#e5e7eb'}}
+      y:{grid:{color:'var(--line)'}}
     }
   }
 });
@@ -1626,7 +1623,7 @@ new Chart(document.getElementById('funnelChart'), {
     indexAxis:'y', responsive:true, maintainAspectRatio:false,
     plugins:{legend:{display:false}},
     scales:{
-      x:{grid:{color:'#e5e7eb'}},
+      x:{grid:{color:'var(--line)'}},
       y:{grid:{display:false}}
     }
   }
@@ -1655,7 +1652,7 @@ new Chart(document.getElementById('vipChart'), {
     plugins:{legend:{display:false}},
     scales:{
       x:{grid:{display:false}},
-      y:{min:90, max:130, grid:{color:'#e5e7eb'}}
+      y:{min:90, max:130, grid:{color:'var(--line)'}}
     }
   }
 });
@@ -1676,7 +1673,7 @@ if (buyChartEl) {
       indexAxis:'y', responsive:true, maintainAspectRatio:false,
       plugins:{legend:{display:false}},
       scales:{
-        x:{grid:{color:'#e5e7eb'}},
+        x:{grid:{color:'var(--line)'}},
         y:{grid:{display:false}}
       }
     }
@@ -1699,7 +1696,7 @@ if (auctionChartEl) {
       indexAxis:'y', responsive:true, maintainAspectRatio:false,
       plugins:{legend:{display:false}},
       scales:{
-        x:{min:6800, grid:{color:'#e5e7eb'}},
+        x:{min:6800, grid:{color:'var(--line)'}},
         y:{grid:{display:false}}
       }
     }
@@ -1723,7 +1720,7 @@ if (positionChartEl) {
       plugins:{legend:{display:false}},
       scales:{
         x:{grid:{display:false}},
-        y:{grid:{color:'#e5e7eb'}}
+        y:{grid:{color:'var(--line)'}}
       }
     }
   });
@@ -1749,7 +1746,7 @@ new Chart(document.getElementById('couponShareChart'), {
       x:{grid:{display:false}},
       y:{
         beginAtZero:true,
-        grid:{color:'#e5e7eb'},
+        grid:{color:'var(--line)'},
         ticks:{
           callback: function(value){ return value + '%'; }
         }
